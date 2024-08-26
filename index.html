@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Start Quiz Button -->
+        <div class="start_btn">
+            <button class="js-start-btn">Start Quiz</button>
+        </div>
+    </div>
+
+
+    <!-- Info Box -->
+    <div class="info_box js-info-box">
+        <div class="info_title">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> for each question.</div>
+            <div class="info">2. Try your best and <span>leave the rest</span> may not be enough.</div>
+            <div class="info">3. The qestions are <span>hard</span> if you do not know</div>
+            <div class="info">4. Once you start, <span>there is</span> no going back.</div>
+            <div class="info">5. Be fast <span>and</span> furious. LOL</div>
+        </div>
+        <div class="buttons">
+            <button class="quit js-quit-btn">Exit Quiz</button>
+            <button class="restart js-continue-btn">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz questions box -->
+    <div class="quiz_box js-quiz-box">
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box js-result-box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You have completed the quiz!</div>
+        <div class="score_text">
+            <span class="js-score-content"></span>
+        </div>
+        <div class="buttons">
+            <button class="restart js-restart-quiz">Replay Quiz</button>
+            <button class="quit js-finished-quiz">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="home.js" type="module"></script>
+</body>
+
+</html>
